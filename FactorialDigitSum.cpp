@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 static unsigned long long factorial( unsigned long long n ) {
