@@ -19,8 +19,7 @@ static unsigned long long Rn( unsigned long long n ) {
 }
 
 int main() {
-	unsigned long long n = 1;
-	for( n; n != 0; n++ )	{
+	for( unsigned long long n = 1; n != 0; n++ )	{
 		cout << "**********Iteration " << n << "**********" << endl << "result: " << Rn( n ) << endl;
 	}
 	return 0;
